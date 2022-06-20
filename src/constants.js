@@ -17,7 +17,7 @@ export const nutritionFacts = [
   { id: 1, label: "Description", attribute: "item_description" },
   { id: 2, label: "Calories", attribute: "calories" },
   { id: 3, label: "Cholesterol", attribute: "cholesterol" },
-  { id: 4, label: "Fiber", attribute: "fiber" },
+  { id: 4, label: "Fiber", attribute: "dietary_fiber" },
   { id: 5, label: "Sodium", attribute: "sodium" },
   { id: 6, label: "Sugar", attribute: "sugar" },
   { id: 7, label: "Total Fat", attribute: "total_fat" },

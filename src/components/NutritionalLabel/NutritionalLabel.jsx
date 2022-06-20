@@ -15,7 +15,7 @@ export function NutritionalLabel(props) {
         nutritionFacts.map((facts) => {
           return <NutritionalLabelFact
             key = {facts.id}
-            label ={facts.id}
+            label ={facts.label}
             attribute = {facts.attribute}
             item = {item}
           />
@@ -30,7 +30,7 @@ export function NutritionalLabelFact(props) {
 
   return (
     <li className="nutrition-fact">
-      <span className="fact-label">{}</span>{props.attribute + ": "}
+      <span className="fact-label">{props.label}</span>
       <span className="fact-value">{props.item[props.attribute]}</span>
          
     </li>
